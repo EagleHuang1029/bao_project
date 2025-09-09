@@ -37,6 +37,10 @@
   max-width: 175px;
 }
 
+.max-w-311 {
+  width: 311px;
+}
+
 .max-w-320 {
   max-width: 20rem;
 }
@@ -93,6 +97,13 @@
 }
 
 // border-radius
+.border-radius-lg {
+  border-radius: $border-radius-lg !important;
+}
+
+.border-radius-xl {
+  border-radius: $border-radius-xl !important;
+}
 
 .border-radius-xxl {
   border-radius: $border-radius-xxl !important;
@@ -387,4 +398,34 @@
   &:hover{
     background-color: $primary-500 !important;
   }
+}
+
+
+// analyze頁面
+
+.bg-surface-50{
+  background-color:#FFF8F2 ;
+}
+
+.moodFood{
+  svg{
+    width: 30px;
+    height: 30px;
+  }
+}
+
+.moodFood-red{
+  background-color:#FF6666 ;
+}
+
+.moodFood-blue{
+  background-color: #109CCA;
+}
+
+.moodFood-green{
+  background-color: #57AA98;
+}
+
+.moodFood-yellow{
+  background-color: #F7BA00;
 }
